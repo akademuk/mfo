@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/Favicon_36х36.png">
+    <link rel="stylesheet" href="style/star-rating-svg.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Рейтинг МФО</title>
+</head>
+
+<body class="body">
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="popup-visible">
+                <span id="closePopupButton" class="close-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+                        <path d="M18.8798 26.1822L9.93994 17.561L1.31881 26.5009" stroke="#939496" stroke-width="2" />
+                        <path d="M1.0001 8.9399L9.93994 17.561L18.5611 8.62119" stroke="#939496" stroke-width="2" />
+                    </svg>
+                </span>
+                <h2>Угода користувача (Умови використання сайту)</h2>
+                <div>
+                    Ця Угода визначає умови та правила цільового використання веб-сайту ______________ та прикладних
+                    програм. <br>
+                    Угода укладається між Вами (далі - Користувач) та ТОВ «_______________» (далі –
+                    Адміністрація або Компанія) і регулює усі способи використання Сайту, його «під доменів», які
+                    знаходяться у розпорядженні та в управлінні Адміністрації, усі види послуг, що надає Адміністрація
+                    завдяки Сайту та Програмам.<br>
+                    1. Загальні положення <br>
+                    1.1. Сайт (далі – ____________________) надає Користувачам пропозиції Партнерів Адміністрації, які
+                    перебувають у договірних відносинах та пропонують участь в азартних іграх в мережі Інтернет, а також
+                    розміщує на сайті новини, довідкові ресурси, бонусні програми, рекламні та інформаційні матеріали
+                    (далі - Послуги).<br>
+                    1.2. Сайт __________________ виконує функції онлайн-площадки, яка рекламує послуги Партнерів
+                    (Рекламодавців) та надає дає доступ до веб-сайтів фінансових установ, що надають послуги з
+                    кредитування та мікрокредитування згідно вимог законодавства України. Адміністрація Сайту не
+                    здійснює діяльності з надання фінансових послуг.<br>
+                    1.2. Послуги надаються Користувачам Сайту ______________________ відповідно до цієї Угоди
+                    користувача (далі - Угода).<br>
+                    1.3. Використання Сайту свідчить про приєднання Користувача до цієї Угоди користувача (далі – Угода)
+                    повністю і підтверджує його згоду з наведеними нижче умовами.<br>
+                    1.4. Використовувати Сайт дозволено тільки особі, яка прийняла усі умови цієї Угоди.<br>
+                    1.5. Користувач зобов’язаний уважно ознайомитися з умовами цієї Угоди перед використанням Сайту.<br>
+                    1.6. Якщо Ви не погоджуєтеся з умовами цієї Угоди (повністю або частково), то права Користувача не
+                    можуть бути надані Вам, також Вам забороняється використовувати Сайт або включаючи, але не
+                    обмежуючись, будь-яку інформацію, розміщену на Сайті й будь-які Послуги, які надаються в рамках
+                    Сайту.<br>
+                    1.7. Ця Угода є договором приєднання відповідно до положень статті 634 Цивільного кодексу України.
+                    Відвідуючи наш Сайт і працюючи з його змістом, Ви повністю приймаєте умови цієї Угоди, підтверджуєте
+                    свою ознайомлення з ними і приймаєте на себе зобов'язання щодо їх дотримання.
+                    Дана Угода поширюється на всіх Користувачів Сайту, незалежно від мети їхнього використання Сайту, і
+                    являє собою публічну оферту. Дія даної Угоди поширюється на Користувачів з моменту Реєстрації та
+                    кожного наступного доступу до Сайту за допомогою Логіну
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup2" class="popup2">
+    <div class="popup-content2">
+        <span class="close2" id="closePopupBtn2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="36" viewBox="0 0 20 36" fill="none">
+                <path d="M18.8798 26.1822L9.93994 17.561L1.31881 26.5009" stroke="#939496" stroke-width="2" />
+                <path d="M1.0001 8.9399L9.93994 17.561L18.5611 8.62119" stroke="#939496" stroke-width="2" />
+            </svg>
+        </span>
+        <form id="popupForm">
+            <h2>Заблокировать номер:</h2>
+            <h3>Для того чтобы вас исключили из рассылки введите, пожалуйста, свой номер мобильного телефона.</h3>
+            <input type="tel" id="tel" name="tel" placeholder="+38(0хх) ххх-хх-хх" required>
+            <br>
+            <div class="recaptcha">
+                <img src="img/Captcha.png" alt="">
+            </div>
+            <input type="submit" value="Відправити" class="btn-submit">
+        </form>
+        <div id="thankYou" class="thank-you-message">
+           <h2>Успішно!</h2>
+           <p>Терпіння! <br> 
+            Ми отримали ваш номер у роботу <br>
+            і якнайшвидше виключимо його з розсилки.</p>
+        </div>
+    </div>
+    </div>
+
+
+
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/Group13.svg" alt="Logo">
+                    Рейтинг МФО
+                </a>
+                <div class="animation">
+                    <img src="img/Frame.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-top-text">
+            Заповніть <span>2-3 заявки</span> – щоб збільшити свої шанси отримати гроші!
+        </div>
+        <div class="main-container margin">
+            <div class="main-tittle">
+                <h2>Кращі рекомендації</h2>
+                <span></span>
+            </div>
+            <div class="main-box">
+                <div class="main-card">
+                    
+                    <div class="main-card-img">
+                        <img src="img/card-img.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating" data-rating="0"></div>
+                            <div id="rating-value">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>15 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>500</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>9 842,79%</span></div>
+                                <div>до <span>203 406,11%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img2.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating1 rating" data-rating="0"></div>
+                            <div id="rating-value1">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>20 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>120</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>122%</span></div>
+                                <div>до <span>125%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating2 rating" data-rating="0"></div>
+                            <div id="rating-value2">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>15 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>500</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>9 842,79%</span></div>
+                                <div>до <span>203 406,11%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img2.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating3 rating" data-rating="0"></div>
+                            <div id="rating-value3">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>20 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>120</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>122%</span></div>
+                                <div>до <span>125%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="main-box">
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating4 rating" data-rating="0"></div>
+                            <div id="rating-value4">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>15 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>500</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>9 842,79%</span></div>
+                                <div>до <span>203 406,11%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img2.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating5 rating" data-rating="0"></div>
+                            <div id="rating-value5">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>20 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>120</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>122%</span></div>
+                                <div>до <span>125%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating6 rating" data-rating="0"></div>
+                            <div id="rating-value6">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>15 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>500</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>9 842,79%</span></div>
+                                <div>до <span>203 406,11%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-card">
+                    <div class="main-card-img">
+                        <img src="img/card-img2.png" alt="image">
+                    </div>
+                    <div class="main-content">
+                        <div class="star">
+                            <div class="star-rating7 rating" data-rating="0"></div>
+                            <div id="rating-value7">4.7</div>
+                        </div>
+                        <div class="main-content-price">
+                            <div class="main-content-price1">
+                                до <span>20 000</span> ₴ /
+                            </div>
+                            <div class="main-content-price2">
+                                до <span>120</span> днів
+                            </div>
+                        </div>
+                        <div class="main-content-price-link">
+                            <a href="#" target="_blank">
+                                Істотні характеристики кредиту
+                            </a>
+                            <a href="#" target="_blank">
+                                Попередження щодо користуванням кредитом
+                            </a>
+                        </div>
+                        <div class="main-content-present">
+                            <div class="main-content-present-tittle">PPПС*</div>
+                            <div class="main-content-present-text">
+                                <div>від <span>122%</span></div>
+                                <div>до <span>125%</span></div>
+                            </div>
+                        </div>
+                        <button>Подати заявку</button>
+                        <div class="offer">
+                            <img src="img/like.svg" alt="like">
+                            Кращий оффер
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="creditor">
+            <div class="main-tittle">
+                <h2>Про кредиторів</h2>
+                <span></span>
+            </div>
+            <div class="creditor-box">
+                <div class="creditor-card">
+                    <div class="creditor-header">
+                        <h2>Selfie Credit</h2>
+                        <a href="#">
+                            <img src="img/Button.svg" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="creditor-main">
+                        <div class="creditor-main-top">
+                            <h3>Істотні характеристики кредиту</h3>
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Веб сайт
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="https://selfiecredit.com.ua/">https://selfiecredit.com.ua/</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    E-mail
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="mailto:info@selfiecredit.com.ua">info@selfiecredit.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Телефон
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="tel:0443334356">044 333 43 56</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    ПІБ Директора
+                                </div>
+                                <div class="card-container-right">
+                                    Куліш Максим Петрович
+                                </div>
+                            </div>
+
+                            <div class="card-container card-container2">
+                                <div class="card-container-left">
+                                    Адреса
+                                </div>
+                                <div class="card-container-right">
+                                    Україна, місто Київ, вул. Андріївський 
+                                    Узвіз, дім №1А
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Графік роботи
+                                </div>
+                                <div class="card-container-right">
+                                    Пн-Пт: 8:00 - 22:00, <br>
+                                    Сб-Вс: 8:00 - 21:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creditor-main-bottom">
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    *Реальна річна процентна ставка
+                                </div>
+                                <div class="card-container-right">
+                                    від 9 842,79% <br>
+                                    до 203 406,11%
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Строк
+                                </div>
+                                <div class="card-container-right">
+                                    від 345 до 365 дней
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Ліцензія
+                                </div>
+                                <div class="card-container-right">
+                                    №1491 від 28.08.2018 р.
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Свідоцтво
+                                </div>
+                                <div class="card-container-right">
+                                    №1328 від 19.07.2018 р. 
+                                    значення РРПС від 122% 
+                                    до 225%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="creditor-card">
+                    <div class="creditor-header">
+                        <h2>ТОВ «Фінансова компанія «Нові кредити»
+                        </h2>
+                        <a href="#">
+                            <img src="img/Button.svg" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="creditor-main">
+                        <div class="creditor-main-top">
+                            <h3>Істотні характеристики кредиту</h3>
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Веб сайт
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="https://novikredyty.com.ua">https://novikredyty.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    E-mail
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="mailto:info@selfiecredit.com.ua">info@selfiecredit.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Телефон
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="tel:0800301008">0 800301 008</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    ПІБ Директора
+                                </div>
+                                <div class="card-container-right">
+                                    Тамара Соловей
+                                </div>
+                            </div>
+
+                            <div class="card-container card-container2">
+                                <div class="card-container-left">
+                                    Адреса
+                                </div>
+                                <div class="card-container-right">
+                                    02002 м. Київ, вул. Митрополита Андрея Шептицького, 4-а, бізнес-центр Komod
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Графік роботи
+                                </div>
+                                <div class="card-container-right">
+                                    Приймаємо заявки цілодобово та без вихідних: <br> Пн – Нд:00:00 — 24:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creditor-main-bottom">
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    *Реальна річна процентна ставка
+                                </div>
+                                <div class="card-container-right">
+                                    від 9 842,79% <br> до 203 406,11%
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Строк
+                                </div>
+                                <div class="card-container-right">
+                                    від 345 до 365 дней
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Ліцензія
+                                </div>
+                                <div class="card-container-right">
+                                     №1491 від 28.08.2018 р.
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Свідоцтво
+                                </div>
+                                <div class="card-container-right">
+                                    №1328 від 19.07.2018 р.  значення РРПС від 122% до 225%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="creditor-card">
+                    <div class="creditor-header">
+                        <h2>ТОВ «Фінансова компанія «Нові кредити»
+                        </h2>
+                        <a href="#">
+                            <img src="img/Button.svg" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="creditor-main">
+                        <div class="creditor-main-top">
+                            <h3>Істотні характеристики кредиту</h3>
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Веб сайт
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="https://novikredyty.com.ua">https://novikredyty.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    E-mail
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="mailto:info@selfiecredit.com.ua">info@selfiecredit.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Телефон
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="tel:0800301008">0 800301 008</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    ПІБ Директора
+                                </div>
+                                <div class="card-container-right">
+                                    Тамара Соловей
+                                </div>
+                            </div>
+
+                            <div class="card-container card-container2">
+                                <div class="card-container-left">
+                                    Адреса
+                                </div>
+                                <div class="card-container-right">
+                                    02002 м. Київ, вул. Митрополита Андрея Шептицького, 4-а, бізнес-центр Komod
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Графік роботи
+                                </div>
+                                <div class="card-container-right">
+                                    Приймаємо заявки цілодобово та без вихідних: <br> Пн – Нд:00:00 — 24:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creditor-main-bottom">
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    *Реальна річна процентна ставка
+                                </div>
+                                <div class="card-container-right">
+                                    від 9 842,79% <br> до 203 406,11%
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Строк
+                                </div>
+                                <div class="card-container-right">
+                                    від 345 до 365 дней
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Ліцензія
+                                </div>
+                                <div class="card-container-right">
+                                     №1491 від 28.08.2018 р.
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Свідоцтво
+                                </div>
+                                <div class="card-container-right">
+                                    №1328 від 19.07.2018 р.  значення РРПС від 122% до 225%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="creditor-card">
+                    <div class="creditor-header">
+                        <h2>Selfie Credit</h2>
+                        <a href="#">
+                            <img src="img/Button.svg" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="creditor-main">
+                        <div class="creditor-main-top">
+                            <h3>Істотні характеристики кредиту</h3>
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Веб сайт
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="https://selfiecredit.com.ua/">https://selfiecredit.com.ua/</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    E-mail
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="mailto:info@selfiecredit.com.ua">info@selfiecredit.com.ua</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Телефон
+                                </div>
+                                <div class="card-container-right">
+                                    <a href="tel:0443334356">044 333 43 56</a>
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    ПІБ Директора
+                                </div>
+                                <div class="card-container-right">
+                                    Куліш Максим Петрович
+                                </div>
+                            </div>
+
+                            <div class="card-container card-container2">
+                                <div class="card-container-left">
+                                    Адреса
+                                </div>
+                                <div class="card-container-right">
+                                    Україна, місто Київ, вул. Андріївський 
+                                    Узвіз, дім №1А
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Графік роботи
+                                </div>
+                                <div class="card-container-right">
+                                    Пн-Пт: 8:00 - 22:00, <br>
+                                    Сб-Вс: 8:00 - 21:00
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creditor-main-bottom">
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    *Реальна річна процентна ставка
+                                </div>
+                                <div class="card-container-right">
+                                    від 9 842,79% <br>
+                                    до 203 406,11%
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Строк
+                                </div>
+                                <div class="card-container-right">
+                                    від 345 до 365 дней
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Ліцензія
+                                </div>
+                                <div class="card-container-right">
+                                    №1491 від 28.08.2018 р.
+                                </div>
+                            </div>
+
+                            <div class="card-container">
+                                <div class="card-container-left">
+                                    Свідоцтво
+                                </div>
+                                <div class="card-container-right">
+                                    №1328 від 19.07.2018 р. 
+                                    значення РРПС від 122% 
+                                    до 225%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrapper">
+            <div class="footer-top">
+                <div class="footer-top-left">
+                    <div class="footer-top-left-img">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="img/Group13.svg" alt="Logo">
+                                Рейтинг МФО
+                            </a>
+                            <div class="animation"> 
+                                <img src="img/Frame.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <p>Про нас:</p>
+                    <div class="about-us">
+                        Кращий рейтинг кредитних пропозицій. Наші фахівци збирають тільки ліцензійні фінансові компанії з виключною вигідою для вас
+                    </div>
+                </div>
+                <div class="footer-top-right">
+                    <div class="social">
+                        <p>Зв`яжіться з нами:</p>
+                        <div class="social-container">
+                            <a href="#"></a>
+                            <div class="social-container-img">
+                                <img src="img/telegram.svg" alt="Теlegram">
+                            </div>
+                            Теlegram
+                        </div>
+                        <div class="social-container">
+                            <a href="#"></a>
+                            <div class="social-container-img">
+                                <img src="img/viber.svg" alt="Viber">
+                            </div>
+                            Viber
+                        </div>
+                    </div>
+                    <div class="pay">
+                        <img src="img/Visa.svg" alt="Visa">
+                        <img src="img/Mastercard.svg" alt="Mastercard">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <form action="">
+                    <p>Підписка на новини:</p>
+                    <div class="form-input">
+                        <input type="tel" name="" id="tel2" placeholder="+38(0хх) ххх-хх-хх">
+                        <input type="submit" value="">
+                    </div>
+                </form>
+                <div class="privecy">
+                    Реєструючись в нашому сервісі, ви погоджуєтесь <button id="openPopupButton">з угодою користувача та
+                        правилами користування
+                        сервісом</button>
+                </div>
+                <div class="footer-content">
+                    Якщо ви не бажаєте отримувати розсилку від нас, <button id="showPopupBtn">натисніть тут</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="download">
+        Скачати додаток
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script/jquery.star-rating-svg.js"></script>
+<script src="script/jquery.maskedinput.min.js"></script>
+
+
+<script>
+    $("#tel").mask("+38(099) 999-99-99");
+    $("#tel2").mask("+38(099) 999-99-99");
+</script>
+
+
+<script>
+    // Попап
+    const openPopupButton = document.getElementById('openPopupButton');
+    const closePopupButton = document.getElementById('closePopupButton');
+    const body = document.getElementsByClassName('.body');
+    const popup = document.getElementById('popup');
+    function openPopup() {
+        popup.style.display = 'flex';
+        document.querySelector('.body').classList.toggle('open');
+    }
+    function closePopup() {
+        popup.style.display = 'none';
+        document.querySelector('.body').classList.remove('open');
+    }
+    openPopupButton.addEventListener('click', openPopup);
+    closePopupButton.addEventListener('click', closePopup);
+    window.addEventListener('click', (event) => {
+        if (event.target === popup) {
+            closePopup();
+        }
+    });
+    window.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && popup.style.display === 'flex') {
+            closePopup();
+        }
+    });
+    // --------------------------------------------------------------------
+</script>
+
+<script>
+    document.getElementById('showPopupBtn').addEventListener('click', function() {
+    document.getElementById('popup2').classList.add('show');
+    document.querySelector('.body').classList.remove('open');
+    });
+
+    document.getElementById('closePopupBtn2').addEventListener('click', function() {
+    document.getElementById('popup2').classList.remove('show');
+    document.querySelector('.body').classList.remove('open');
+    });
+
+    document.getElementById('popupForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    document.getElementById('popupForm').style.display = 'none';
+    document.getElementById('thankYou').style.display = 'flex';
+    });
+
+</script>
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.star-rating').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value').text(currentRating);
+            }
+        });
+        $('.star-rating1').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value1').text(currentRating);
+            }
+        });
+        $('.star-rating2').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value2').text(currentRating);
+            }
+        });
+        $('.star-rating3').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value3').text(currentRating);
+            }
+        });
+        $('.star-rating1').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value1').text(currentRating);
+            }
+        });
+        $('.star-rating4').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value4').text(currentRating);
+            }
+        });
+        $('.star-rating5').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value5').text(currentRating);
+            }
+        });
+        $('.star-rating6').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            readOnly: false,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            callback: function (currentRating, $el) {
+                $('#rating-value6').text(currentRating);
+            }
+        });
+        $('.star-rating7').starRating({
+            totalStars: 5,
+            initialRating: 4.7,
+            starSize: 15,
+            starGradient: {
+                start: '#FFC107',
+                end: '#FFC107'
+            },
+            emptyColor: 'white',
+            ratedColors: ['#FFC107', '#FFC107', '#FFC107', '#FFC107', '#FFC107'],
+            readOnly: false,
+            callback: function (currentRating, $el) {
+                $('#rating-value7').text(currentRating);
+            }
+        });
+    });
+</script>
+
+
+
+</html>
