@@ -192,9 +192,12 @@ main {
     text-align: center;
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     line-height: normal;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 40px;
     background: #0047F5;
     border: none;
@@ -809,7 +812,7 @@ box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .main-content-present-text div {
     color: #000;
